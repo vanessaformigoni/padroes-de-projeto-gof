@@ -1,0 +1,17 @@
+Padroes de Projetos GOF
+
+Os atributos são as caracteristicas e estados do objeto e os métodos representam as operações e comportamentos do objeto;
+
+O diagrama de classes discrimina uma classe com seus metodos, atributos e açoes. Alem de descrever a relação que as clases podem ou nao ter;
+
+-> Agregação: Tipo de  relacionamento independente do tipo TODO/PARTE, onde o objeto PARTE pode existir mesmo sem o objeto TODO. Ex: Departamento é TODO e funcionaerio PARTE, se o departamento deixar de existir, os funcionarios continuarão a existir;
+
+-> Composição: Relacionamento com alto grau de coesão entre o objeto PARTE e o objeto PARTE. O objeto PARTE nao pode existir ser o objeto TODO.
+
+Os padrões de projetos podem ser dividios em 3 categorias: criacao, estrutural e comportamental. Eles servem para escrever soluções para problemas recorrentes para o desenvolvimento de sistemas Orientado a Objetos.
+
+Os padroes de criação são 05 e servem para situaçÕes na qual envolve-se a criação de objetos ocultando os detalhes da criaçao.
+
+Os padroes estruturais são 07 e servem para se preocupar com a composicao das classes e seus objetos.
+
+Os padroes comportamentais são 11 e espeficiam as comunicação entre objetos.
