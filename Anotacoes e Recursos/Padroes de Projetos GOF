@@ -1,4 +1,4 @@
-Padroes de Projetos GOF
+Anotações CURSO - Padroes de Projetos GOF - Udemy
 
 Os atributos são as caracteristicas e estados do objeto e os métodos representam as operações e comportamentos do objeto;
 
@@ -15,3 +15,11 @@ Os padroes de criação são 05 e servem para situaçÕes na qual envolve-se a c
 Os padroes estruturais são 07 e servem para se preocupar com a composicao das classes e seus objetos.
 
 Os padroes comportamentais são 11 e espeficiam as comunicação entre objetos.
+
+### PADROES DE CRIAÇÃO:
+
+Aplicam-se em situações que envolvem a criação de objetos.
+Ajudam a fazer um sistema independente de como seus objetos são criados, compostos e representados.
+
+-> Singleton (1/5 - 4): Tem a intenção de garantir que uma determinada classe tenha uma, e somente uma instância, mantendo um ponto global de acesso para a mesma. Quero garantir que só tenha um OBJETO de uma determinada tipo classe dentro da aplicação (Não permitir várias instancias de uma mesma classe). 
+Para garantir que só irá existir uma instancia daquela classe, o singleton define o construtor daquela classe com private.
