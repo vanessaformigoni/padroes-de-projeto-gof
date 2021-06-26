@@ -21,5 +21,7 @@ Os padroes comportamentais são 11 e espeficiam as comunicação entre objetos.
 Aplicam-se em situações que envolvem a criação de objetos.
 Ajudam a fazer um sistema independente de como seus objetos são criados, compostos e representados.
 
--> Singleton (1/5 - 4): Tem a intenção de garantir que uma determinada classe tenha uma, e somente uma instância, mantendo um ponto global de acesso para a mesma. Quero garantir que só tenha um OBJETO de uma determinada tipo classe dentro da aplicação (Não permitir várias instancias de uma mesma classe). 
-Para garantir que só irá existir uma instancia daquela classe, o singleton define o construtor daquela classe com private.
+-> Singleton (1/5 - 4): Tem a intenção de garantir que uma determinada classe tenha uma, e somente uma instância, mantendo um ponto unico global de acesso para a mesma. Quero garantir que só tenha um OBJETO de uma determinada tipo classe dentro da aplicação (Não permitir várias instancias de uma mesma classe). 
+Para garantir que só irá existir uma instancia daquela classe, o singleton define o construtor daquela classe com private. Isso impede que o programador tente instanciar a classe através do operador new().
+
+-> Factory Method (1/5 - 5): Tem a intenção de definir uma interface para criar um objeto, mas deixar as subclasses decidirem quais classe instanciar. Cria uma instancia de várias classes derivadas. A essencia desse padrao de projeto factoryMethod é ter uma fábrica para cada tipo de produto e dentro de cada fábrica, tem o método de criação do objeto. A vantagem é que esse padrão permite a criacao de produtos, sem saber os detalhes de como eles são criados ou as dependendias entre os produtos. A gente só precisa informar os dados necessários para cria-los. É uma alternativa para os contrutores. 
