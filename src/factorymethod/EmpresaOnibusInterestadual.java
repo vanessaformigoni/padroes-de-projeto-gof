@@ -3,6 +3,7 @@ package factorymethod;
 import java.util.Calendar;
 
 public class EmpresaOnibusInterestadual extends Empresa{
+
     @Override
     public Passagem emitePassagem(String origem, String destino, Calendar dataHoraPartida) {
 
