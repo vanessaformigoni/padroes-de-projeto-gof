@@ -28,4 +28,6 @@ Para garantir que só irá existir uma instancia daquela classe, o singleton def
 
 -> Abstract Factory (1/5 - 5): Tem a intenção de ornecer uma interface para a criação e familias de objetos relacionados ou dependentes, sem especificar suas classes concretas. Cria uma instancia de várias classes. (Uma fábrica com vários métodos um pra cada produtos). Familia de produtos bem definidos. A expansibilidade so Factory Method é bem maior do que a do Abstract Factory.
 
--> Builder (1/5 -2): Tem a inteção de separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações. Separa a contrução do objeto de sua representação. Tem a intenção de encapusular processos complexos de montagem de objetos.
+-> Builder (1/5 - 2): Tem a inteção de separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações. Separa a contrução do objeto de sua representação. Tem a intenção de encapusular processos complexos de montagem de objetos.
+
+-> Prototype (1/5 -3): Tem a intenção de específicar s tipo de de objeto a serem criados usando uma instancia protótipo e criar novos objetos pela cópia deste protótipo. Uma intancia inicializada a ser copiada ou clonada. 
