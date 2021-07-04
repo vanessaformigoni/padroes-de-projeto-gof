@@ -16,7 +16,7 @@ Os padroes estruturais são 07 e servem para se preocupar com a composicao das c
 
 Os padroes comportamentais são 11 e espeficiam as comunicação entre objetos.
 
-### PADROES DE CRIAÇÃO:
+### PADROES DE CRIAÇÃO 5:
 
 Aplicam-se em situações que envolvem a criação de objetos.
 Ajudam a fazer um sistema independente de como seus objetos são criados, compostos e representados.
@@ -31,3 +31,13 @@ Para garantir que só irá existir uma instancia daquela classe, o singleton def
 -> Builder (1/5 - 2): Tem a inteção de separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações. Separa a contrução do objeto de sua representação. Tem a intenção de encapusular processos complexos de montagem de objetos.
 
 -> Prototype (1/5 -3): Tem a intenção de específicar s tipo de de objeto a serem criados usando uma instancia protótipo e criar novos objetos pela cópia deste protótipo. Uma intancia inicializada a ser copiada ou clonada. Fazer clones de objetos. Objetivo, construir objetos iguais a si mesmo.
+
+### PADROES ESTRUTURAIS 7:
+
+Eles se preocupam com a composição das classes e seus objetos. O conceito de herança é largamente utilizado para compor interfaces e definir mandeiras para compor objetos e obter novas funcionalidades.
+
+-> Bridge (1/5 - 3): Tem a intenção de desacoplar uma abstração da sua implementação de modo que as duas possam variar independentemente. Ou seja, separar a interface do objeto de sua implementação.
+//Procurar um exemplo melhor pra botar no gir, o do curso é PÉSSIMO. 
+
+-> Adapter (1/5 -4): Tem a interção de converter uma interface de uma classe em outra interface, esperada pelos clientes. O adapter permite que as classes com interfaces incompatíveis trabalhem em conjuto o que, de outra forma, seria impossivel. Ou seja, o adapter é utilizado pra adaptar interfaces de diferentes clases. Aparentemente ele ta criando outra classe, que sobreescreve alguns metodos e reaproveitando outros, sobreesvendo de forma que eu consiga usar.
+
