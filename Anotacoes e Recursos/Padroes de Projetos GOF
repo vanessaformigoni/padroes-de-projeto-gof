@@ -39,5 +39,7 @@ Eles se preocupam com a composição das classes e seus objetos. O conceito de h
 -> Bridge (1/5 - 3): Tem a intenção de desacoplar uma abstração da sua implementação de modo que as duas possam variar independentemente. Ou seja, separar a interface do objeto de sua implementação.
 //Procurar um exemplo melhor pra botar no gir, o do curso é PÉSSIMO. 
 
--> Adapter (1/5 -4): Tem a interção de converter uma interface de uma classe em outra interface, esperada pelos clientes. O adapter permite que as classes com interfaces incompatíveis trabalhem em conjuto o que, de outra forma, seria impossivel. Ou seja, o adapter é utilizado pra adaptar interfaces de diferentes clases. Aparentemente ele ta criando outra classe, que sobreescreve alguns metodos e reaproveitando outros, sobreesvendo de forma que eu consiga usar.
+-> Adapter (1/5 - 4): Tem a interção de converter uma interface de uma classe em outra interface, esperada pelos clientes. O adapter permite que as classes com interfaces incompatíveis trabalhem em conjuto o que, de outra forma, seria impossivel. Ou seja, o adapter é utilizado pra adaptar interfaces de diferentes clases. Aparentemente ele ta criando outra classe, que sobreescreve alguns metodos e reaproveitando outros, sobreesvendo de forma que eu consiga usar.
+
+-> Proxy (1/5 - 4): Tem a inteção de fornecer um substituto ou marcador da localização de um outro objeto para controlar o acesso do mesmo. Um objeto representando outro objeto. 
 
