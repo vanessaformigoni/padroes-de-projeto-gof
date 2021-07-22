@@ -5,7 +5,7 @@ public abstract class NotaMusical implements Cloneable {
     public NotaMusical clone() {
         Object clone = null;
         try {
-            super.clone();
+           clone = super.clone();
         } catch (CloneNotSupportedException ex) {
             ex.printStackTrace();
         }
