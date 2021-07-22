@@ -45,7 +45,9 @@ Eles se preocupam com a composição das classes e seus objetos. O conceito de h
 
 -> Decorator (1/5 - 3): Tem a intenção de agregar dinamicamente responsabilidades adicionais a um objeto (em tempo de excução). A motivação do uso do decorator é quando um objeto usado possui funcionalidades básicas mas é necessário adicionar outras funcionalidades em tempo de execução. Ou funcionalidades que devem ser adicionadas a um determinado objeto e não a sua classe. //Entendi foi nada. Péssimo exemplo.
 
--> Composite (1/5 -4)- Tem a intenção de compor objetos em estruturas de arvore para representarem hierarquias todo-parte. O padrao composite é uma otima saida para compor objetos dentor de uma estrutura de arvore que representa a hierarquia todo parte, e o composite permite que clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+-> Composite (1/5 - 4): Tem a intenção de compor objetos em estruturas de arvore para representarem hierarquias todo-parte. O padrao composite é uma otima saida para compor objetos dentor de uma estrutura de arvore que representa a hierarquia todo parte, e o composite permite que clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+
+-> Facade (1/5 - 5): Tem a intenção de fornecer uma interface unificada para um conjuto de interfaces em um subsistema. Façade define uma interface de nivel mais alto que torna o subsistema mais facil de ser usado. Uma única classe representa o subsistema inteiro. Ele envelopa detalhes mais complicados do subsistema criando uma interface mais simples para o usuário. No exemplo,(em vex de deixar exposto ao cliente, criamos uma "fachada com os tres metodoso"). Com essa fachada eu consigo escolher, quais metodos de outras classes o cliente poderá acessar. Uma consequencia é a baixa coesão por ele fazer uma grande quantidade de tarefas. A classe fica sobrecarregada.
 
 
 
