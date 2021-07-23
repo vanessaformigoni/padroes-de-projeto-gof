@@ -1,4 +1,4 @@
-package Proxy;
+package proxy;
 
 public class ProxyImage extends Image{
     private String fileName;
