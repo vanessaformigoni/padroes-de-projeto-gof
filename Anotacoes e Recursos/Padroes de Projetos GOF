@@ -16,7 +16,10 @@ Os padroes estruturais são 07 e servem para se preocupar com a composicao das c
 
 Os padroes comportamentais são 11 e espeficiam as comunicação entre objetos.
 
+
+
 ### PADROES DE CRIAÇÃO 5:
+
 
 Aplicam-se em situações que envolvem a criação de objetos.
 Ajudam a fazer um sistema independente de como seus objetos são criados, compostos e representados.
@@ -32,7 +35,10 @@ Para garantir que só irá existir uma instancia daquela classe, o singleton def
 
 -> Prototype (1/5 -3): Tem a intenção de específicar s tipo de de objeto a serem criados usando uma instancia protótipo e criar novos objetos pela cópia deste protótipo. Uma intancia inicializada a ser copiada ou clonada. Fazer clones de objetos. Objetivo, construir objetos iguais a si mesmo.
 
+
+
 ### PADROES ESTRUTURAIS 7:
+
 
 Eles se preocupam com a composição das classes e seus objetos. O conceito de herança é largamente utilizado para compor interfaces e definir mandeiras para compor objetos e obter novas funcionalidades.
 
@@ -50,5 +56,14 @@ Eles se preocupam com a composição das classes e seus objetos. O conceito de h
 -> Facade (1/5 - 5): Tem a intenção de fornecer uma interface unificada para um conjuto de interfaces em um subsistema. Façade define uma interface de nivel mais alto que torna o subsistema mais facil de ser usado. Uma única classe representa o subsistema inteiro. Ele envelopa detalhes mais complicados do subsistema criando uma interface mais simples para o usuário. No exemplo,(em vex de deixar exposto ao cliente, criamos uma "fachada com os tres metodoso"). Com essa fachada eu consigo escolher, quais metodos de outras classes o cliente poderá acessar. Uma consequencia é a baixa coesão por ele fazer uma grande quantidade de tarefas. A classe fica sobrecarregada.
 
 -> Flyweight (1/5 - 1): Usar compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina. 
+
+
+### PADROES COMPORTAMENTAIS 11:
+
+
+Eles são especificamentes relacionados com a comunicação entre objetos.
+
+-> Command (1/5 - 4): Tem a intenção de encapsular comandos como objetos. No padrão command existe uma classe chamada Invoker que armazena o historico de todos os comandos. 
+
 
 
