@@ -63,7 +63,6 @@ Eles se preocupam com a composição das classes e seus objetos. O conceito de h
 
 Eles são especificamentes relacionados com a comunicação entre objetos.
 
--> Command (1/5 - 4): Tem a intenção de encapsular comandos como objetos. No padrão command existe uma classe chamada Invoker que armazena o historico de todos os comandos. 
+-> Command (1/5 - 4): Tem a intenção de encapsular comandos como objetos. No padrão command existe uma classe chamada Invoker que armazena o historico de todos os comandos. (Neste exemplo, ele foi empilhando as informaçÕes).
 
-
-
+-> Strategy (1/5 - 4): Tem a inteção de definir uma familia de algoritmos, encapsular cada uma delas e tornalas intercambiáveis. Emcapsular algoritmos (estratégias) como um objeto - independentemente dos clientes que o utilizam. Neste exemplo encapusulamos algorimos de ordenação como classes. Posso mudar o a estrategia de ordenação sem precisar criar um novo objeto e intanciar, posso usar o mesmo. Posso mudar o algoritmo sem precisar mexer no objeto que quero mudar.
