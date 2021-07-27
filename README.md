@@ -45,7 +45,7 @@ Decorator
 
 Facade
 
-Flyweight
+flyweight
 
 Proxy
 

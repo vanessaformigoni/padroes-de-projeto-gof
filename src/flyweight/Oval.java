@@ -1,4 +1,4 @@
-package Flyweight;
+package flyweight;
 
 public class Oval extends Figura {
 
