@@ -70,3 +70,5 @@ Eles são especificamentes relacionados com a comunicação entre objetos.
 -> State (1/5 - 3): Tem a intenção de permitir a um objeto alterar seu comportamento quando seu estado interno muda.
 
 -> Observer (1/5 - 5): Definir uma dependencia um-para-muitos entre objetos, de maneira que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. Temos dois conceitos importantes: obj observador (devem conhecer o objeto de interesse) e obj observado (deve notificado os observadores quando este for atualizado). Carro policia/carro roubado. A classe observador tem que implementar a interface Observer e sobrecrer os metodos. Esta interface foi descontinuada. Consulte a classe Observable para obter mais informações. A classe observada tem que extender a classe observable. O metodo notify e update estão conectados entres eles.
+
+-> Mediator (1/5 -2): Tem a intenção de definir uma comunicação simplificada entre as classes. A comunicação entre as classes é encapsulada em um objeto chamado mediador, reduzindo a dependencia entre os objetos que estão se comunicanco.  
