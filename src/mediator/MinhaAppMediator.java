@@ -2,7 +2,7 @@ package mediator;
 
 public class MinhaAppMediator {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //Cria-se o objeto Mediator
         ChatMediator salaChat = new ChatMediator();
 

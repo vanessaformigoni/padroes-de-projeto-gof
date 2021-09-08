@@ -2,7 +2,7 @@ package chainOfResponsability;
 
 public class MinhaAppChainOfResponsability {
 
-    public static void main(String agrs[]) {
+    public static void main(String[] agrs) {
 
         //Tomadores de decição
         TomadorDeDecisao presidente = new Presidente();
