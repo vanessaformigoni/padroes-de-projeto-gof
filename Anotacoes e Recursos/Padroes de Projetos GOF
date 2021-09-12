@@ -76,3 +76,7 @@ Eles são especificamentes relacionados com a comunicação entre objetos.
 -> Chain of Responsability (1/5 -2): Tem a inteção de encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate. Uma maneira de passar uma requisição entre uma cadeia de objetos. A grande sacada é o TomadorDeDecisao ter uma variavel chamada TomadorDeDecisao que diz qual será o sucessor - como se fosse ponteiros. Representa um encadeamento de objetos receptores para o processamento de uma série de solicitações diferentes. E esses objetos receptores vão passando a solicitação ao longo da cadeira até ser tratado. 
 
 -> Template Method (1/5 -3): Tem a intenção de definir o esqueleto de um algoritimo em uma operação, postergando alguns passos para as subclasses. Esse padrao de projeto fornece uma estrutura fixa que é presente na superclasse como nas classes filhas e a superClasse tem o metodo concreto que é o template Method.
+
+-> Interpreter (1/5 - 1): Uma forma de incluir elementos da linguagem em um programa fazendo uso de classes para representar cada regra de uma gramatica (expressao regular). - Rever melhor
+
+-> Memento (1/5 -1): Tem a inteção de salvar o estado de um objeto sem violar o encapsulamento do objeto. O memento tem as mesmas informações que a classe que ele deseja salvar. Salva o estado interno de um objeto pra depois recuperar. 
