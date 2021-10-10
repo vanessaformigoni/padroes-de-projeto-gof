@@ -1,14 +1,14 @@
-package itarator;
+package iterator;
 
 import java.util.Iterator;
 
 //ConcreteIterator
-public class PeixeIterator implements Iterator<Animal> {
+public class AveIterator implements Iterator<Animal> {
 
     private Zoo zoo;
     private int pos = 0;
 
-    public PeixeIterator(Zoo zoo) {
+    public AveIterator(Zoo zoo) {
         this.zoo = zoo;
     }
 
@@ -16,7 +16,7 @@ public class PeixeIterator implements Iterator<Animal> {
     public boolean hasNext() {
         for (int i = pos; i < zoo.getAnimais().size(); i++) {
             Animal a = zoo.getAnimais().get(i);
-            if (a.getClasse().equalsIgnoreCase("peixe")) {
+            if (a.getClasse().equalsIgnoreCase("ave")) {
                 return true;
             }
         }
@@ -29,7 +29,7 @@ public class PeixeIterator implements Iterator<Animal> {
             Animal a = zoo.getAnimais().get(pos);
             pos++;
 
-            if (a.getClasse().equalsIgnoreCase("peixe")) {
+            if (a.getClasse().equalsIgnoreCase("ave")) {
                 return a;
             }
         }
@@ -37,4 +37,3 @@ public class PeixeIterator implements Iterator<Animal> {
         return null;
     }
 }
-

@@ -1,4 +1,4 @@
-package itarator;
+package iterator;
 
 public class MinhaAppIterator {
 

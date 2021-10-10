@@ -1,41 +1,40 @@
-package itarator;
+package iterator;
 
 import java.util.Iterator;
-import java.util.function.Consumer;
 
-public class MamiferoIterator implements Iterator<Animal> {
+//ConcreteIterator
+public class PeixeIterator implements Iterator<Animal> {
 
     private Zoo zoo;
-    private int pos =0;
+    private int pos = 0;
 
-    public MamiferoIterator(Zoo zoo) {
+    public PeixeIterator(Zoo zoo) {
         this.zoo = zoo;
     }
 
     //Metodo verifica se existe um proximo elemento especifico dessa classe na lista
-    @Override
     public boolean hasNext() {
-        for(int i = pos; i < zoo.getAnimais().size(); i++) {
+        for (int i = pos; i < zoo.getAnimais().size(); i++) {
             Animal a = zoo.getAnimais().get(i);
-            if(a.getClasse().equalsIgnoreCase("mamifero")) {
+            if (a.getClasse().equalsIgnoreCase("peixe")) {
                 return true;
             }
         }
         return false;
     }
 
-    //Iteracoes filtradas
-    @Override
+    //Iteracoes filtradas.
     public Animal next() {
         while (pos < zoo.getAnimais().size()) {
             Animal a = zoo.getAnimais().get(pos);
             pos++;
 
-            if(a.getClasse().equalsIgnoreCase("mamifero")){
+            if (a.getClasse().equalsIgnoreCase("peixe")) {
                 return a;
             }
         }
-        //Retorna NULL se nao ha mais elemento dessa classe na lista
+        //Retorna null se nao ha mais elementos especificos dessa classe na lista
         return null;
     }
 }
+
