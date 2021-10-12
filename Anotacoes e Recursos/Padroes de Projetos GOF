@@ -80,3 +80,7 @@ Eles são especificamentes relacionados com a comunicação entre objetos.
 -> Interpreter (1/5 - 1): Uma forma de incluir elementos da linguagem em um programa fazendo uso de classes para representar cada regra de uma gramatica (expressao regular). - Rever melhor
 
 -> Memento (1/5 -1): Tem a inteção de salvar o estado de um objeto sem violar o encapsulamento do objeto. O memento tem as mesmas informações que a classe que ele deseja salvar. Salva o estado interno de um objeto pra depois recuperar. 
+
+-> Itarator (1/5 -5): Fornece um meio de acessar, sequencialmente, os elementos de um objeto agregado sem expor a sua representação. Quando o programador quer examinar o conteudo de listas. Java já possui o iterator pra trabalhar/percorrer com listas. Itarator é uma estrutura muito utilizada pra percorrer elementos numa lista. 
+
+-> Visitor (1/5 -5): A intençao dele é representar uma operação a ser executada nos elementos de uma estrutura de objetos. Visitor permite defirnir uma nova operação sem mudar as classes dos elementos entre os quais opera. Define uma nova operacão de uma classe sem altera-lá.
